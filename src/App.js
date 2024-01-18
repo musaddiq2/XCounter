@@ -16,10 +16,10 @@ function App() {
     <div className="counter-app">
       <h2>Counter App</h2>
       <div className="counter">
-        <button onClick={decrement} disabled={count === 0}>
+        <button onClick={decrement}>
           Decrement
         </button>
-        <span>{count}</span>
+        <span>Count: {count}</span>
         <button onClick={increment}>Increment</button>
       </div>
     </div>
